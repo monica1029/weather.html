@@ -1,0 +1,35 @@
+.weather-stats {
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 550px;
+    border-radius: 10px;
+    margin: 15px auto;
+    border-radius: 15px;
+  }
+  h1 {
+    color: rgb(211, 163, 32);
+    font-size: 30px;
+    font-weight: 75;
+    margin: 0;
+    line-height: 30px;
+  }
+  ul {
+    padding: 0;
+    margin: 0 0 5px;
+   
+  }
+
+  li {
+    color: rgb(84, 82, 223);
+    font-size: 20px;
+    list-style: none;
+    font-weight: 75;
+    height: 20px;
+  }
+  
+  .temperature {
+    font-weight: 200;
+    color: black;
+    font-size: 64px;
+  }
+  

@@ -1,3 +1,4 @@
+
 .weather-stats {
     border: 1px solid black;
     padding: 20px;
@@ -5,6 +6,9 @@
     border-radius: 10px;
     margin: 15px auto;
     border-radius: 15px;
+    background-image: url(https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&h=650&w=940);
+
+
   }
   h1 {
     color: rgb(211, 163, 32);
@@ -20,8 +24,7 @@
   }
 
   li {
-    color: rgb(84, 82, 223);
-    font-size: 20px;
+    font-size: 25px;
     list-style: none;
     font-weight: 75;
     height: 20px;
@@ -30,12 +33,17 @@
   .temperature {
     font-weight: 200;
     color: black;
-    font-size: 64px;
+    font-size: 100px;
   }
-  .btn-primary {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-   }
   
-  
+  strong {
+    color: rgb(211, 163, 32);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 300;
+  }
+  .units {
+   position: relative; 
+   top: -40px;
+
+  }
